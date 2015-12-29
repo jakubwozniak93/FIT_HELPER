@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">mojaApka</string>
+    <string name="title_activity_mapa_krakow">Map</string>
+    <string name="title_activity_mapa_wroclaw">MapaWroclaw</string>
+    <string name="title_activity_mapa_katowice">MapaKatowice</string>
+    <string name="title_activity_mapa_cieszyn">MapaCieszyn</string>
+</resources>
