@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FIT_HELPER</string>
+    <string-array name="aktywność">
+        <item>Wybierz rodzaj aktywności fizycznej</item>
+        <item>Znikoma (brak ćwiczeń, praca siedząca, szkoła)</item>
+        <item>Bardzo mała (ćwiczenia raz na tydzień, praca lekka)</item>
+        <item>Umiarkowana (ćwiczenia 2 razy w tygodniu)</item>
+        <item>Duża (dość ciężki trening kilka razy w tygodniu)</item>
+        <item>Bardzo duża (przynajmniej 4 treningi w tygodniu, praca fizyczna)</item>
+    </string-array>
+
+    <string-array name="cel">
+        <item>Wybierz co chcesz osiągnąć</item>
+        <item>Chcę przytyć</item>
+        <item>Chcę utrzymać wagę</item>
+        <item>Chcę schudnąć</item>
+    </string-array>
+
+</resources>

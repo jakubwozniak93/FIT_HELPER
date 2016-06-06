@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:id="@+id/linearDane"
+        tools:context="com.example.jakub.fit_helper.Dane_Trening">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:id="@+id/partia"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:id="@+id/cwiczenie"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seria 1"
+            android:textStyle="bold"
+            android:id="@+id/seria"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Podaj ilość powtórzeń: "
+            android:textStyle="bold"
+            android:id="@+id/powtorzenia"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ilosc_powtorzen"
+                    android:hint="ilość powtórzeń: "
+                    android:inputType="number"
+                    android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Podaj obciążenie: "
+            android:textStyle="bold"
+            android:id="@+id/obciazenie"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ilosc_obciazenia"
+            android:hint="obciążenie: "
+            android:inputType="number"
+            android:layout_gravity="center_horizontal" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <TableRow>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kolejna seria"
+                    android:id="@+id/kolejna"
+                    android:onClick="kolejna"
+                    android:layout_column="1" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zakończ"
+                    android:id="@+id/zakoncz"
+                    android:onClick="zakoncz"
+                    android:layout_column="2" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    </LinearLayout>
+</ScrollView>

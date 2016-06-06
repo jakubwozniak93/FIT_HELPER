@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jakub.fit_helper" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Kalkulator" >
+        </activity>
+        <activity android:name=".Trening" >
+        </activity>
+        <activity android:name=".Ramie" >
+        </activity>
+        <activity android:name=".Klatka" >
+        </activity>
+        <activity android:name=".Plecy" >
+        </activity>
+        <activity android:name=".Barki" >
+        </activity>
+        <activity android:name=".Nogi" >
+        </activity>
+        <activity android:name=".Barki_dane" >
+        </activity>
+        <activity android:name=".Klatka_dane" >
+        </activity>
+        <activity android:name=".Nogi_dane" >
+        </activity>
+        <activity android:name=".Plecy_dane" >
+        </activity>
+        <activity android:name=".Ramie_dane" >
+        </activity>
+        <activity android:name=".Trening_dane" >
+        </activity>
+        <activity android:name=".Dane_Trening" >
+        </activity>
+        <activity android:name=".Kalendarz" >
+        </activity>
+        <activity android:name=".Kalendarz_Dane" >
+        </activity>
+        <activity android:name=".Autor" >
+        </activity>
+    </application>
+
+</manifest>

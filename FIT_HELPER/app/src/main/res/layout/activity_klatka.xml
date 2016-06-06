@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:background="#000"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.example.jakub.fit_helper.Klatka">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wybierz ćwiczenie:"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitXY"
+                    android:id="@+id/sztangielka_plaska"
+                    android:layout_centerInParent="true"
+                    android:onClick="dane"
+                    android:background="@drawable/sztangielka_plaska"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wyciskanie\nsztangielek\npoziomo"
+                    android:background="#000"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/textView4"
+                    android:layout_column="1"
+                    android:onClick="dane"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitXY"
+                    android:id="@+id/sztanga_plasko"
+                    android:layout_centerInParent="true"
+                    android:onClick="dane"
+                    android:background="@drawable/sztanga_plasko"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wyciskanie\nsztangi\npoziomo"
+                    android:background="#000"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:id="@+id/textView8"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_column="1"
+                    android:onClick="dane"/>
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitXY"
+                    android:id="@+id/rozpietki_plasko"
+                    android:layout_centerInParent="true"
+                    android:onClick="dane"
+                    android:background="@drawable/rozpietki_plasko"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rozpiętki\npoziomo"
+                    android:background="#000"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:id="@+id/textView12"
+                    android:gravity="center"
+                    android:layout_column="1"
+                    android:onClick="dane"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitXY"
+                    android:id="@+id/przenoszenie"
+                    android:layout_centerInParent="true"
+                    android:onClick="dane"
+                    android:background="@drawable/przenoszenie"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Przenoszenie\nsztangielki w\npoprzek"
+                    android:background="#000"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:id="@+id/textView13"
+                    android:gravity="center"
+                    android:layout_column="1"
+                    android:onClick="dane"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitXY"
+                    android:id="@+id/krzyzowanie_gora"
+                    android:layout_centerInParent="true"
+                    android:onClick="dane"
+                    android:background="@drawable/krzyzowanie_gora"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Krzyżowanie\nlinek na\nwyciągu\ngórnym"
+                    android:background="#000"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/textView14"
+                    android:layout_column="1"
+                    android:onClick="dane"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitXY"
+                    android:id="@+id/krzyzowanie_dol"
+                    android:layout_centerInParent="true"
+                    android:onClick="dane"
+                    android:background="@drawable/krzyzowanie_dol"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Krzyżowanie\nlinek na\nwyciągu\ndolnym"
+                    android:background="#000"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/textView7"
+                    android:layout_column="1"
+                    android:onClick="dane"/>
+
+            </TableRow>
+
+
+
+
+        </TableLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
